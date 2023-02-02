@@ -67,7 +67,7 @@ const DetailsPage = () => {
 
                                 <button
                                     onClick={() => setHide('visible')}
-                                    className="btn btn-error rounded-full ">Visible Details</button>
+                                    className="btn btn-success rounded-full ">Visible Details</button>
                                 :
                                 <button
                                     onClick={() => setHide('hide')}
