@@ -24,7 +24,9 @@ const UsersDisplay = ({ user }) => {
             </div>
             <div className='text-right'>
 
-                <Link to={`/details`} > <button className="btn btn-error rounded-full ">View Details</button> </Link>
+                <Link to={`/details`} > <button
+                onClick={()=> localStorage.setItem('id',id)} 
+                className="btn btn-error rounded-full ">View Details</button> </Link>
             </div>
         </div>
     );
