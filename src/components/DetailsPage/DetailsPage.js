@@ -28,7 +28,7 @@ const DetailsPage = () => {
         return <Loading></Loading>
     }
 
-    console.log(hide);
+    // console.log(hide);
     return (
         <div className='container mx-auto my-10'>
             <div className='bg-slate-200 py-1 rounded-lg'>

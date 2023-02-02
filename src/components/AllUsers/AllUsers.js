@@ -23,7 +23,7 @@ const AllUsers = () => {
                 if (page === 0) {
                     for (let i = 0; i < 3; i++) {
                         let user = data[i]
-                        console.log(user);
+                        // console.log(user);
                         userData.push(user)
                     }
                     setAllUsers(userData);
