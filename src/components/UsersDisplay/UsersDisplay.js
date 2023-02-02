@@ -6,9 +6,9 @@ const UsersDisplay = ({ user }) => {
 
 
     return (
-        <div className='border bg-white p-5 rounded-lg m-5 grid grid-cols-5'>
-            <div className='my-auto'>
-                <h3>{name}</h3>
+        <div className='border bg-white p-5 rounded-lg m-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 space-y-3'>
+            <div>
+                <h3 className='mt-5'>{name}</h3>
             </div>
             <div>
                 <h2><strong>CONTACT</strong></h2>
@@ -22,7 +22,7 @@ const UsersDisplay = ({ user }) => {
                 <h2><strong>STATE</strong></h2>
                 <h3>{address?.city}</h3>
             </div>
-            <div className='text-right'>
+            <div className=' lg:text-right'>
 
                 <Link to={`/details`} > <button
                 onClick={()=> localStorage.setItem('id',id)} 
